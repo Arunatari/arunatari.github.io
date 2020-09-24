@@ -1,0 +1,59 @@
+body
+{
+	background-color: #000000
+}
+
+.center
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#HeldDisplay
+{
+	position: absolute;
+	left: 50;
+	top: 50;
+	width: 150;
+	height: 150;
+	background-color: #303030;
+}
+
+#NextDisplay
+{
+	position: absolute;
+	left: 562;
+	top: 50;
+	width: 150;
+	height: 428;
+	background-color: #303030;
+}
+
+#NextDisplay div
+{
+	position: absolute;
+	left: 0;
+	width: 150;
+	height: 64;
+}
+
+#MainDisplay
+{
+	position: absolute;
+	left: 220;
+	top: 50;
+	width: 320;
+	height: 640;
+	background-color: #404040
+}
+
+#MainDisplay canvas
+{
+	position: absolute;
+	left: 0;
+	top: 0
+}
